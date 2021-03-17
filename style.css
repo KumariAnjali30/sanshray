@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+     background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    top: 10px;
+    position: absolute;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+
+}
+
+.article:hover {
+    background-color: darkgoldenrod;
+    color: #FFFF;
+}
+
+.article {
+    float: left;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 5px;
+    color: chartreuse;
+    font-size: 20px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Hobby {
+    padding-top: 100px;
+    background: linear-gradient (#fce703 0%, #03fcf0 100%);
+}
+
+p {
+    margin-right: 400px;
+    margin-left: 400px;
+}
